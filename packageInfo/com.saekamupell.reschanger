@@ -2,7 +2,7 @@
 	"name": "Reschanger",
 	"desc_short": "Resolution changer for iPhone devices.",
 	"desc_long": "Change your iPhone resolution without glitch.<br><br><strong>(Need reboot after apply new ewsolution.)</strong><br><br>Using mTerminal for open this tweak, type <strong>'reschanger'</strong> for execute.<br><strong>!!RUN RESSETUP FIRST BEFORE RUN RESCHANGER!!</strong>",
-	"compatitle": "iOS 9",
+	"compatitle": "iOS 12",
 	"changelog": "<strong>4</strong><br>Update<br>",
 	"screenshot": "<div style='text-align:center;'><a href='https://i.imgur.com/2a6fvW1.png' target='_blank'><img width=95% src='https://i.imgur.com/2a6fvW1.png'/></a><br></div>","<div style='text-align:center;'><a href='https://i.imgur.com/4OAKAac.png' target='_blank'><img width=95% src='https://i.imgur.com/4OAKAac.png'/></a><br></div>"
 	"open": true,
