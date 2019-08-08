@@ -1,0 +1,9 @@
+{
+	"name": "Reschanger",
+	"desc_short": "Resolution changer for iPhone devices.",
+	"desc_long": "Change your iPhone resolution without glitch.<br><strong>(Need reboot after apply new ewsolution.)</strong><br><br>Using mTerminal for open this tweak, type <strong>'reschanger'</strong> for execute.<br><br><br><strong>(not works with chimera jb)</strong>",
+	"compatitle": "iOS 9",
+	"changelog": "<strong>3.2</strong><br>Update<br>",
+	"screenshot": "<div style='text-align:center;'><a href='https://i.imgur.com/wg6WEq2.png' target='_blank'><img width=95% src='https://i.imgur.com/wg6WEq2.png'/></a><br></div>",
+	"open": true,
+}

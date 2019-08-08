@@ -1,0 +1,11 @@
+Origin: saekamupell repo
+Label: saekamupell
+Suite: stable
+Version: 1.0
+Codename: saekamupell
+Architecture: iphoneos-arm
+Components: main
+Description: saekamupell Tweaks
+MD5Sum:
+ 03629986d4b8172b388ba4c3d4eaba0b 75621 Packages
+ 8e709744203357872e4b86f9cfbef9ca 20575 Packages.bz2
