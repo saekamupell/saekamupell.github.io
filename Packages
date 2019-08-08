@@ -4,11 +4,11 @@ Architecture: iphoneos-arm
 Maintainer: Saekamupell <saekamupell@gmail.com>
 Depends: ws.hbang.common
 Filename: ./debfiles/com.saekamupell.reschanger_4_iphoneos-arm.deb
-Size: 21856
-MD5sum: e1cadc3908f41d83a04844140b2d0725
-SHA1: 1e0d3d0c985c380ba33e769b8db5499cd264a6a6
-SHA256: a506f84ad9f2f4692baaeca907fd8b0fe223044059ba202dbe0c477e8434463b
-SHA512: fa918c383946bd29363123a1e6541198a2ad351dd599ad615824700ba58207241576c872a19310643ae017d5fd94b80501050abad1979e14f23241458d3f2bb3
+Size: 21854
+MD5sum: 2d54f3cc583731e29edef4f93f7f56f8
+SHA1: 9846a861bdea53e441abc552841f4c2795902272
+SHA256: 1d10df502a50e31fc4f399e025000f46ecde11ecfa321141ee5fc32244922583
+SHA512: 7fe49bb8b7fc967498fb92db0fdb2738f87812ad2feb6da00b7f3872d3505273a3eef0d1c8df3bae85f343e365bb19564070733d9f2faf441796eac19df7cb76
 Section: Tweaks
 Description: Resolution changer for iPhone devices.
 Author: Saekamupell <saekamupell@gmail.com>
