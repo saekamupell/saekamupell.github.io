@@ -2,7 +2,7 @@ Origin: Saekamupell's Repo
 Label: Saekamupell
 Suite: stable
 Version: 1.0
-Codename: Saekamupell
+Codename: ios
 Architecture: iphoneos-arm
 Components: main
 Description: saekamupell's Tweaks
