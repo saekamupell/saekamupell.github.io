@@ -8,7 +8,7 @@ function iOSVersion() {
 $(function() {
   $("li").on("click",function() {
 	  if(this.id=="dnt") {
-		  $("#dnt_txt").html("---");
+		  $("#dnt_txt").html("-----");
 	  }
   });
 });
