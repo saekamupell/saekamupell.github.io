@@ -18,7 +18,7 @@ function loadPackageInfo() {
 		$("#showAddRepoUrl_").show();
 	}
 	var urlSelfParts = window.location.href.split('/repo/description.html?id=');
-	var form_url = urlSelfParts[0]+"packageInfo/"+urlSelfParts[1];
+	var form_url = urlSelfParts[0]+"/repo/packageInfo/"+urlSelfParts[1];
 	$.ajax({
 		url: form_url,
 		type: "GET",
@@ -72,7 +72,7 @@ function loadPackageInfo() {
 	});
 }
 function loadRecentUpdates() {
-	var form_url = window.location.protocol+"//"+window.location.hostname+"/last.updates";
+	var form_url = window.location.protocol+"//"+window.location.hostname+"/repo/last.updates";
 	$.ajax({
 		url: form_url,
 		type: "GET",
