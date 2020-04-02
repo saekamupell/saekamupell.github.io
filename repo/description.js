@@ -72,7 +72,7 @@ function loadPackageInfo() {
 	});
 }
 function loadRecentUpdates() {
-	var form_url = window.location.protocol+"//"+window.location.hostname+"/repo/last.updates";
+	var form_url = window.location.protocol+"//"+window.location.hostname+"/last.updates";
 	$.ajax({
 		url: form_url,
 		type: "GET",
