@@ -17,8 +17,8 @@ function loadPackageInfo() {
 		$("#showAddRepo_").show();
 		$("#showAddRepoUrl_").show();
 	}
-	var urlSelfParts = window.location.href.split('/description.html?id=');
-	var form_url = urlSelfParts[0]+"/packageInfo/"+urlSelfParts[1];
+	var urlSelfParts = window.location.href.split('/repo/description.html?id=');
+	var form_url = urlSelfParts[0]+"/repo/packageInfo/"+urlSelfParts[1];
 	$.ajax({
 		url: form_url,
 		type: "GET",
