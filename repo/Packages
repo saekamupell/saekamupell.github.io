@@ -1,9 +1,9 @@
-Package: com.saekamupell.reschanger
+sPackage: com.saekamupell.reschanger
 Version: 4.2
 Architecture: iphoneos-arm
 Maintainer: Saekamupell <saekamupell@gmail.com>
 Depends: ws.hbang.common
-Filename: ./repo/debfiles/com.saekamupell.reschanger_4.2_iphoneos-arm.deb
+Filename: ./debfiles/com.saekamupell.reschanger_4.2_iphoneos-arm.deb
 Size: 24846
 MD5sum: c595e3b1c04fc85e585f6fae60720715
 SHA1: 5112940d5a8549987cf0823206d96a35b302787f

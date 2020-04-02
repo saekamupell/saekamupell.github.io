@@ -17,7 +17,7 @@ function loadPackageInfo() {
 		$("#showAddRepo_").show();
 		$("#showAddRepoUrl_").show();
 	}
-	var urlSelfParts = window.location.href.split('/repo/description.html?id=');
+	var urlSelfParts = window.location.href.split('description.html?id=');
 	var form_url = urlSelfParts[0]+"packageInfo/"+urlSelfParts[1];
 	$.ajax({
 		url: form_url,
@@ -64,15 +64,15 @@ function loadPackageInfo() {
 			if(decodeResp.open == true) {
 				$("#is_open_source_").show();
 			}
-			},
+			
+        },
 		error: function (err) {
 			$("#errorInfo").html("Description unavailable for "+urlSelfParts[1]);
 		}
-        
 	});
 }
 function loadRecentUpdates() {
-	var form_url = window.location.protocol+"//"+window.location.hostname+"/repo/last.updates";
+	var form_url = window.location.protocol+"//"+window.location.hostname+"/last.updates";
 	$.ajax({
 		url: form_url,
 		type: "GET",
@@ -84,7 +84,7 @@ function loadRecentUpdates() {
 			for (var dicNow in decodeResp) {
 				var urlOpen = "cydia://package/"+decodeResp[dicNow].package;
 				if (navigator.userAgent.search(/Cydia/) == -1) {
-					urlOpen = window.location.protocol+"//"+window.location.hostname+"/repo/description.html?id="+decodeResp[dicNow].package;
+					urlOpen = window.location.protocol+"//"+window.location.hostname+"/description.html?id="+decodeResp[dicNow].package;
 				}
 				htmlnews +=  "<li><a href='"+urlOpen+"' target='_blank'><img class='icon' src='tweak.png'/><label>"+decodeResp[dicNow].name+" v"+decodeResp[dicNow].version+"</label></a></li>";
 			}
