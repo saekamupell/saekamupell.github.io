@@ -1,5 +1,5 @@
 sPackage: com.saekamupell.reschanger
-Version: 5
+Version: 5.0
 Architecture: iphoneos-arm
 Maintainer: Saekamupell <saekamupell@gmail.com>
 Depends: ws.hbang.common
