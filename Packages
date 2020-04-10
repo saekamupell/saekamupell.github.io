@@ -1,4 +1,4 @@
-sPackage: com.saekamupell.reschanger
+Package: com.saekamupell.reschanger
 Version: 5.0
 Architecture: iphoneos-arm
 Maintainer: Saekamupell <saekamupell@gmail.com>
